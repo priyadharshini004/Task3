@@ -16,22 +16,22 @@ elif(english>maths and english>physics and english>chemistry and english>compute
 	else:
 		print("max mark is",english)
 elif(maths>physics and maths>chemistry and maths>computer_science):
-	if(tamil>100):
+	if(maths>100):
 		print("invalid maths mark")
 	else:
 		print("max mark is",maths)
 elif(physics>chemistry and physics>computer_science):
-	if(tamil>100):
+	if(physics>100):
 		print("invalid physics mark")
 	else:
 		print("max mark is",physics)
 elif(chemistry>computer_science):
-	if(tamil>100):
+	if(chemistry>100):
 		print("invalid chemistry mark")
 	else:
 		print("max mark is",chemistry)
 else:
-	if(tamil>100):
+	if(computer_science>100):
 		print("invalid tamil mark")
 	else:
 	 	print("max mark is",computer_science)
